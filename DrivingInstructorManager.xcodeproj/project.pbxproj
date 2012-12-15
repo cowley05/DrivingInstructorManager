@@ -29,6 +29,7 @@
 		DFCF752C167D294D00E7EC1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCF74F9167D294D00E7EC1F /* Foundation.framework */; };
 		DFCF7534167D294D00E7EC1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFCF7532167D294D00E7EC1F /* InfoPlist.strings */; };
 		DFCF7537167D294D00E7EC1F /* DrivingInstructorManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCF7536167D294D00E7EC1F /* DrivingInstructorManagerTests.m */; };
+		DFCF7546167D3B5600E7EC1F /* SelectAContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCF7545167D3B5600E7EC1F /* SelectAContactTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		DFCF7533167D294D00E7EC1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DFCF7535167D294D00E7EC1F /* DrivingInstructorManagerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrivingInstructorManagerTests.h; sourceTree = "<group>"; };
 		DFCF7536167D294D00E7EC1F /* DrivingInstructorManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrivingInstructorManagerTests.m; sourceTree = "<group>"; };
+		DFCF7544167D3B5600E7EC1F /* SelectAContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectAContactTableViewController.h; path = ../../../../SelectAContactTableViewController.h; sourceTree = "<group>"; };
+		DFCF7545167D3B5600E7EC1F /* SelectAContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectAContactTableViewController.m; path = ../../../../SelectAContactTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,16 +135,10 @@
 			children = (
 				DFCF7506167D294D00E7EC1F /* AppDelegate.h */,
 				DFCF7507167D294D00E7EC1F /* AppDelegate.m */,
-				DFCF750F167D294D00E7EC1F /* MainStoryboard_iPhone.storyboard */,
-				DFCF7512167D294D00E7EC1F /* MainStoryboard_iPad.storyboard */,
-				DFCF7515167D294D00E7EC1F /* FirstViewController.h */,
-				DFCF7516167D294D00E7EC1F /* FirstViewController.m */,
-				DFCF7518167D294D00E7EC1F /* first.png */,
-				DFCF751A167D294D00E7EC1F /* first@2x.png */,
-				DFCF751C167D294D00E7EC1F /* SecondViewController.h */,
-				DFCF751D167D294D00E7EC1F /* SecondViewController.m */,
-				DFCF751F167D294D00E7EC1F /* second.png */,
-				DFCF7521167D294D00E7EC1F /* second@2x.png */,
+				DFCF7542167D2D6E00E7EC1F /* model */,
+				DFCF7541167D2D6700E7EC1F /* view */,
+				DFCF7540167D2D5500E7EC1F /* controllers */,
+				DFCF7543167D2DA400E7EC1F /* resources */,
 				DFCF74FE167D294D00E7EC1F /* Supporting Files */,
 			);
 			path = DrivingInstructorManager;
@@ -178,6 +175,46 @@
 				DFCF7532167D294D00E7EC1F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFCF7540167D2D5500E7EC1F /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DFCF7515167D294D00E7EC1F /* FirstViewController.h */,
+				DFCF7516167D294D00E7EC1F /* FirstViewController.m */,
+				DFCF751C167D294D00E7EC1F /* SecondViewController.h */,
+				DFCF751D167D294D00E7EC1F /* SecondViewController.m */,
+				DFCF7544167D3B5600E7EC1F /* SelectAContactTableViewController.h */,
+				DFCF7545167D3B5600E7EC1F /* SelectAContactTableViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		DFCF7541167D2D6700E7EC1F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DFCF750F167D294D00E7EC1F /* MainStoryboard_iPhone.storyboard */,
+				DFCF7512167D294D00E7EC1F /* MainStoryboard_iPad.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		DFCF7542167D2D6E00E7EC1F /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		DFCF7543167D2DA400E7EC1F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFCF7518167D294D00E7EC1F /* first.png */,
+				DFCF751A167D294D00E7EC1F /* first@2x.png */,
+				DFCF751F167D294D00E7EC1F /* second.png */,
+				DFCF7521167D294D00E7EC1F /* second@2x.png */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +336,7 @@
 				DFCF7508167D294D00E7EC1F /* AppDelegate.m in Sources */,
 				DFCF7517167D294D00E7EC1F /* FirstViewController.m in Sources */,
 				DFCF751E167D294D00E7EC1F /* SecondViewController.m in Sources */,
+				DFCF7546167D3B5600E7EC1F /* SelectAContactTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
