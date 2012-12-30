@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF6607E61690E23D008C9C3F /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6607E51690E23D008C9C3F /* ContactsTableViewController.m */; };
+		DF6607EE1690ED07008C9C3F /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6607ED1690ED07008C9C3F /* Contact.m */; };
+		DF6607F11690F19A008C9C3F /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6607F01690F19A008C9C3F /* ContactList.m */; };
 		DFCF74F8167D294D00E7EC1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCF74F7167D294D00E7EC1F /* UIKit.framework */; };
 		DFCF74FA167D294D00E7EC1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCF74F9167D294D00E7EC1F /* Foundation.framework */; };
 		DFCF74FC167D294D00E7EC1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCF74FB167D294D00E7EC1F /* CoreGraphics.framework */; };
@@ -21,7 +24,6 @@
 		DFCF7517167D294D00E7EC1F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCF7516167D294D00E7EC1F /* FirstViewController.m */; };
 		DFCF7519167D294D00E7EC1F /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCF7518167D294D00E7EC1F /* first.png */; };
 		DFCF751B167D294D00E7EC1F /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCF751A167D294D00E7EC1F /* first@2x.png */; };
-		DFCF751E167D294D00E7EC1F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCF751D167D294D00E7EC1F /* SecondViewController.m */; };
 		DFCF7520167D294D00E7EC1F /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCF751F167D294D00E7EC1F /* second.png */; };
 		DFCF7522167D294D00E7EC1F /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCF7521167D294D00E7EC1F /* second@2x.png */; };
 		DFCF752A167D294D00E7EC1F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCF7529167D294D00E7EC1F /* SenTestingKit.framework */; };
@@ -43,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF6607E41690E23D008C9C3F /* ContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewController.h; sourceTree = "<group>"; };
+		DF6607E51690E23D008C9C3F /* ContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
+		DF6607EC1690ED07008C9C3F /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		DF6607ED1690ED07008C9C3F /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		DF6607EF1690F19A008C9C3F /* ContactList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactList.h; sourceTree = "<group>"; };
+		DF6607F01690F19A008C9C3F /* ContactList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactList.m; sourceTree = "<group>"; };
 		DFCF74F3167D294D00E7EC1F /* DrivingInstructorManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrivingInstructorManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCF74F7167D294D00E7EC1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DFCF74F9167D294D00E7EC1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,8 +70,6 @@
 		DFCF7516167D294D00E7EC1F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		DFCF7518167D294D00E7EC1F /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		DFCF751A167D294D00E7EC1F /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		DFCF751C167D294D00E7EC1F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		DFCF751D167D294D00E7EC1F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		DFCF751F167D294D00E7EC1F /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		DFCF7521167D294D00E7EC1F /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		DFCF7528167D294D00E7EC1F /* DrivingInstructorManagerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrivingInstructorManagerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -182,8 +188,8 @@
 			children = (
 				DFCF7515167D294D00E7EC1F /* FirstViewController.h */,
 				DFCF7516167D294D00E7EC1F /* FirstViewController.m */,
-				DFCF751C167D294D00E7EC1F /* SecondViewController.h */,
-				DFCF751D167D294D00E7EC1F /* SecondViewController.m */,
+				DF6607E41690E23D008C9C3F /* ContactsTableViewController.h */,
+				DF6607E51690E23D008C9C3F /* ContactsTableViewController.m */,
 				DFCF7544167D3B5600E7EC1F /* SelectAContactTableViewController.h */,
 				DFCF7545167D3B5600E7EC1F /* SelectAContactTableViewController.m */,
 			);
@@ -202,6 +208,10 @@
 		DFCF7542167D2D6E00E7EC1F /* model */ = {
 			isa = PBXGroup;
 			children = (
+				DF6607EC1690ED07008C9C3F /* Contact.h */,
+				DF6607ED1690ED07008C9C3F /* Contact.m */,
+				DF6607EF1690F19A008C9C3F /* ContactList.h */,
+				DF6607F01690F19A008C9C3F /* ContactList.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -335,8 +345,10 @@
 				DFCF7504167D294D00E7EC1F /* main.m in Sources */,
 				DFCF7508167D294D00E7EC1F /* AppDelegate.m in Sources */,
 				DFCF7517167D294D00E7EC1F /* FirstViewController.m in Sources */,
-				DFCF751E167D294D00E7EC1F /* SecondViewController.m in Sources */,
 				DFCF7546167D3B5600E7EC1F /* SelectAContactTableViewController.m in Sources */,
+				DF6607E61690E23D008C9C3F /* ContactsTableViewController.m in Sources */,
+				DF6607EE1690ED07008C9C3F /* Contact.m in Sources */,
+				DF6607F11690F19A008C9C3F /* ContactList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +532,7 @@
 				DFCF753C167D294D00E7EC1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFCF753D167D294D00E7EC1F /* Build configuration list for PBXNativeTarget "DrivingInstructorManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +541,7 @@
 				DFCF753F167D294D00E7EC1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
