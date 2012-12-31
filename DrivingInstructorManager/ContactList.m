@@ -20,6 +20,7 @@
 -(BOOL)addNewContact:(Contact *)contact{
     if([self checkValidContact:contact]){
         [contacts addObject:contact];
+        [self reloadContacts];
         return true;
     }
     return false;
@@ -39,6 +40,10 @@
 
 -(NSArray *)getContacts{
     return [[NSArray alloc] initWithArray:contacts];
+}
+
+-(void)reloadContacts{
+#warning need to reload the contacts
 }
 
 @end

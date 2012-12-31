@@ -14,5 +14,6 @@
 -(BOOL) addNewContact:(Contact *) contact;
 -(BOOL) deleteContactWithForename:(NSString *) forename withNumber:(NSString *) number;
 -(NSArray *)getContacts;
+-(void) reloadContacts;
 
 @end
