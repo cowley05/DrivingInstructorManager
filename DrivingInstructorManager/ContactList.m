@@ -18,18 +18,8 @@
 }
 
 -(BOOL)addNewContact:(Contact *)contact{
-    if([self checkValidContact:contact]){
-        [contacts addObject:contact];
-        [self reloadContacts];
-        return true;
-    }
-    return false;
-}
-
--(BOOL)checkValidContact:(Contact *)contact{
-    if (contact.forename == nil || contact.number == nil || contact.forename == @"" || contact.number == @"") {
-        return false;
-    }
+    [contacts addObject:contact];
+    [self reloadContacts];
     return true;
 }
 

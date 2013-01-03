@@ -9,7 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "ContactList.h"
 #import "Contact.h"
+#import "AddNewContactViewController.h"
 
 @interface ContactsTableViewController : UITableViewController
+
+@property AddNewContactViewController *addNewContactViewController;
+@property Contact *addNewContactsContact;
+
+-(IBAction)addContactClicked:(id)sender;
 
 @end

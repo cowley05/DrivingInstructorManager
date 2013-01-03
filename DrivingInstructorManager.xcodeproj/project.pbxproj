@@ -10,6 +10,7 @@
 		DF6607E61690E23D008C9C3F /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6607E51690E23D008C9C3F /* ContactsTableViewController.m */; };
 		DF6607EE1690ED07008C9C3F /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6607ED1690ED07008C9C3F /* Contact.m */; };
 		DF6607F11690F19A008C9C3F /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6607F01690F19A008C9C3F /* ContactList.m */; };
+		DF6607F716934956008C9C3F /* AddNewContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6607F616934956008C9C3F /* AddNewContactViewController.m */; };
 		DFCF74F8167D294D00E7EC1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCF74F7167D294D00E7EC1F /* UIKit.framework */; };
 		DFCF74FA167D294D00E7EC1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCF74F9167D294D00E7EC1F /* Foundation.framework */; };
 		DFCF74FC167D294D00E7EC1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCF74FB167D294D00E7EC1F /* CoreGraphics.framework */; };
@@ -51,6 +52,9 @@
 		DF6607ED1690ED07008C9C3F /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 		DF6607EF1690F19A008C9C3F /* ContactList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactList.h; sourceTree = "<group>"; };
 		DF6607F01690F19A008C9C3F /* ContactList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactList.m; sourceTree = "<group>"; };
+		DF6607F516934956008C9C3F /* AddNewContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewContactViewController.h; sourceTree = "<group>"; };
+		DF6607F616934956008C9C3F /* AddNewContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewContactViewController.m; sourceTree = "<group>"; };
+		DF660808169625ED008C9C3F /* ContactListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListDataSource.h; sourceTree = "<group>"; };
 		DFCF74F3167D294D00E7EC1F /* DrivingInstructorManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrivingInstructorManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCF74F7167D294D00E7EC1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DFCF74F9167D294D00E7EC1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -192,6 +196,8 @@
 				DF6607E51690E23D008C9C3F /* ContactsTableViewController.m */,
 				DFCF7544167D3B5600E7EC1F /* SelectAContactTableViewController.h */,
 				DFCF7545167D3B5600E7EC1F /* SelectAContactTableViewController.m */,
+				DF6607F516934956008C9C3F /* AddNewContactViewController.h */,
+				DF6607F616934956008C9C3F /* AddNewContactViewController.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -212,6 +218,7 @@
 				DF6607ED1690ED07008C9C3F /* Contact.m */,
 				DF6607EF1690F19A008C9C3F /* ContactList.h */,
 				DF6607F01690F19A008C9C3F /* ContactList.m */,
+				DF660808169625ED008C9C3F /* ContactListDataSource.h */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -349,6 +356,7 @@
 				DF6607E61690E23D008C9C3F /* ContactsTableViewController.m in Sources */,
 				DF6607EE1690ED07008C9C3F /* Contact.m in Sources */,
 				DF6607F11690F19A008C9C3F /* ContactList.m in Sources */,
+				DF6607F716934956008C9C3F /* AddNewContactViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

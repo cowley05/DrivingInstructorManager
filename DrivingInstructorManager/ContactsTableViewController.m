@@ -17,6 +17,8 @@
 @implementation ContactsTableViewController
 
 @synthesize contactList;
+@synthesize addNewContactViewController;
+@synthesize addNewContactsContact;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -31,6 +33,8 @@
 {
     [super viewDidLoad];
     contactList = [[ContactList alloc] init];
+    addNewContactViewController = [[AddNewContactViewController alloc] init];
+    addNewContactsContact = [[Contact alloc] init];
     
 #if TARGET_IPHONE_SIMULATOR
     Contact *testContact = [[Contact alloc] init];
@@ -43,8 +47,15 @@
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+}
+
+-(void)viewDidAppear:(BOOL)animated{    
+    //if the contact is equal to the contact in addnewc..then do nothing else add it to the list and reload table view
+    if (addNewContactsContact != addNewContactViewController.contact) {
+        //call add new contact
+        UIAlertView * alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"efwef", @"") message:@"efwrgwrqgqwrgwg" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
+        [alert show];
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -130,6 +141,11 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
+}
+
+-(IBAction)addContactClicked:(id)sender{
+    addNewContactsContact = addNewContactViewController.contact;
+    [self.navigationController pushViewController:addNewContactViewController animated:YES];
 }
 
 @end
